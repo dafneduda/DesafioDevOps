@@ -1,0 +1,10 @@
+1 terraform init -upgrade
+
+2 terraform plan -out main.tfplan
+
+3 terraform apply main.tfplan
+
+== destruir
+1 terraform plan -destroy -out main.destroy.tfplan
+
+2 terraform apply main.destroy.tfplan
